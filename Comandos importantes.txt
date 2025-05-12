@@ -14,3 +14,5 @@ git log --oneline # muestra el transcurso de los commits y de lo que se ha hecho
 git reset --hard 1234code # devuelve el repositorio al estado cuyo código es 1234code
 
 git add . # es un git add de todos los archivos del repositorio
+
+git commit -am "comentario commit" # es un mix de git add y git commit 
