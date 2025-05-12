@@ -1,0 +1,16 @@
+Video 2 
+
+git init # siempre que se comienza un proyecto. Para crear el repositorio en local
+
+git add "nombre archivo" # para añadir la instantánea del archivo al lugar donde se mandan los archivos para guardar. Ojo! esto no guarda el archivo.
+
+git commit -m "comentario del commit" # guarda instantánea de todos los archivos para los cuales hemos hecho git add
+
+
+git status # muestra el estado de cada archivo
+
+git log --oneline # muestra el transcurso de los commits y de lo que se ha hecho
+
+git reset --hard 1234code # devuelve el repositorio al estado cuyo código es 1234code
+
+git add . # es un git add de todos los archivos del repositorio
